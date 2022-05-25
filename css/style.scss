@@ -1,0 +1,73 @@
+/* GERAL ============================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primary-color: hsl(0, 0%, 15%);
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* MENU ============================================== */
+nav {
+    display: flex;
+    height: 4.0rem;
+    align-items: center;
+
+    color: white;
+    background-color: $primary-color;
+}
+
+div .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.1rem 0;
+}
+
+.login {
+    font-size: 1.4rem;
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+}
+.login p a {
+    color: $primary-color;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 3.0rem;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+} 
+nav li a {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 1.2rem 1rem;
+}
+nav a:hover {
+    color: hsl(354, 74%, 42%);
+    background-color: White;
+}
