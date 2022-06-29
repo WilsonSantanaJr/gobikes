@@ -71,3 +71,40 @@ nav a:hover {
     color: hsl(354, 74%, 42%);
     background-color: White;
 }
+
+/* advantage */
+.advantage {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    background: #393939;
+}
+
+.advantage div {
+ 
+}
+
+/* cards ===================================================== */
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+
+    margin-top: 2.5rem;
+}
+
+.card {
+    flex-grow: 1;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.1rem 0.6rem;
+}

@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -25,54 +24,36 @@ body {
 
 /* MENU ============================================== */
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  height: 4.0rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 4rem;
+  align-items: center;
   color: white;
-  background-color: #262626;
+  background-color: hsl(0deg, 0%, 15%);
 }
 
 div .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: 1.1rem 0;
 }
 
 .login {
   font-size: 1.4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1.1rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .login p a {
-  color: #262626;
+  color: hsl(0deg, 0%, 15%);
   text-decoration: none;
 }
 
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 3.0rem;
+  justify-content: center;
+  gap: 3rem;
   margin: 0;
   padding: 0;
 }
@@ -89,7 +70,37 @@ nav li a {
 }
 
 nav a:hover {
-  color: #ba1c2c;
+  color: hsl(354deg, 74%, 42%);
   background-color: White;
 }
-/*# sourceMappingURL=style.css.map */
+
+/* advantage */
+.advantage {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+  background: #393939;
+}
+
+/* cards ===================================================== */
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-top: 2.5rem;
+}
+
+.card {
+  flex-grow: 1;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem 0.6rem;
+}/*# sourceMappingURL=style.css.map */
