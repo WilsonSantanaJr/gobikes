@@ -1,0 +1,95 @@
+/* GERAL ============================================== */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* MENU ============================================== */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4.0rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: #262626;
+}
+
+div .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1.1rem 0;
+}
+
+.login {
+  font-size: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login p a {
+  color: #262626;
+  text-decoration: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3.0rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 1.2rem 1rem;
+}
+
+nav a:hover {
+  color: #ba1c2c;
+  background-color: White;
+}
+/*# sourceMappingURL=style.css.map */
