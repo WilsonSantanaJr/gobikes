@@ -1,0 +1,163 @@
+/* GERAL ============================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+// colors
+$red: hsl(354, 74%, 42%);
+$white: hsl(0, 0, 100%);
+$primary-color: hsl(0, 0%, 15%);
+$secondary-color: hsl(0, 0%, 22%);
+$tertiary-color: hsl(0, 0%, 51%);
+
+// font-size
+$font-paragraph: 1.4rem;
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+// mixin
+@mixin display {
+    display: flex;
+    align-items: center;
+}
+
+/* MENU ============================================== */
+
+.wrapper {
+    @include display;
+    justify-content: space-between;
+    margin: 1.1rem 0;
+}
+
+form.form-search {
+    display: flex;
+
+    input.page-search {
+        width: 15rem;
+        height: 3rem;
+        padding: 0.25rem 0.5rem;
+        border: 1px solid #A4A4A4;
+        &:active {
+            border: 1px solid #A4A4A4;
+        }
+    }
+}
+
+.login {
+    @include display;
+    font-size: $font-paragraph;
+    gap: 1.1rem;
+
+
+    p a {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+nav {
+    @include display;
+    height: 4.0rem;
+
+    color: $white;
+    background-color: $primary-color;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 3.0rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+
+        a {
+            color: $white;
+            font-size: $font-paragraph;
+            text-decoration: none;
+            padding: 1.2rem 1rem;
+
+            &:hover {
+                color: $red;
+                background-color: $white;
+            }
+        }
+    } 
+}
+
+/* advantage */
+.advantage {
+    background-color: $primary-color;
+
+    section {
+        display: flex;
+        justify-content: space-around;
+        background: $secondary-color;
+    }
+
+    section > div {
+        @include display;
+        justify-content: space-around;
+        gap: 1.7rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    
+        color: $white;
+        font-size: $font-paragraph;
+    }
+}
+
+
+/* CARDS ===================================================== */
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+
+    margin-top: 2.5rem;
+
+    .card {
+        flex-grow: 1;
+        border: none;
+
+        img {
+            width: 100%;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        
+            padding: 1.1rem 0.6rem;
+            background-color: #F4F4F4;
+        }
+    }
+}
+/* PRODUCT ===================================================== */
+
+.product div {
+    border: 1px solid $tertiary-color;
+}

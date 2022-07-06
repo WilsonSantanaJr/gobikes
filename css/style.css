@@ -1,0 +1,134 @@
+/* GERAL ============================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* MENU ============================================== */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.1rem 0;
+}
+
+form.form-search {
+  display: flex;
+}
+form.form-search input.page-search {
+  width: 15rem;
+  height: 3rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #A4A4A4;
+}
+form.form-search input.page-search:active {
+  border: 1px solid #A4A4A4;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  gap: 1.1rem;
+}
+.login p a {
+  color: hsl(0deg, 0%, 15%);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0deg, 0%, 15%);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+}
+nav li a {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 1.2rem 1rem;
+}
+nav li a:hover {
+  color: hsl(354deg, 74%, 42%);
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+/* advantage */
+.advantage {
+  background-color: hsl(0deg, 0%, 15%);
+}
+.advantage section {
+  display: flex;
+  justify-content: space-around;
+  background: hsl(0deg, 0%, 22%);
+}
+.advantage section > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.4rem;
+}
+
+/* CARDS ===================================================== */
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-top: 2.5rem;
+}
+.cards .card {
+  flex-grow: 1;
+  border: none;
+}
+.cards .card img {
+  width: 100%;
+}
+.cards .card div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem 0.6rem;
+  background-color: #F4F4F4;
+}
+
+/* PRODUCT ===================================================== */
+.product div {
+  border: 1px solid hsl(0deg, 0%, 51%);
+}/*# sourceMappingURL=style.css.map */
