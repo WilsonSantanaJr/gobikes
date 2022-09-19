@@ -3,6 +3,8 @@ Projeto de um site E-commerce de bicicletas.
 
 ![preview](./github/preview.png)
 
+[Clique aqui para acessar](https://wilsonsantanajr.github.io/gobikes/)
+
 ## Feito Com
 Abaixo segue o que foi utilizado na criação deste projeto:
 
