@@ -1,6 +1,8 @@
 # Gobikes
 Projeto de um site E-commerce de bicicletas.
 
+![preview](./.github/preview.png)
+
 ## Feito Com
 Abaixo segue o que foi utilizado na criação deste projeto:
 
