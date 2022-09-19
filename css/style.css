@@ -247,6 +247,10 @@ footer div.container {
 }
 
 @media (min-width: 500px) {
+  .contact div .social-media {
+    display: flex;
+    justify-content: start;
+  }
   footer div {
     display: block;
   }

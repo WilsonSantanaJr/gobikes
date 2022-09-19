@@ -8,7 +8,8 @@
 	<meta name="description" content="Uma pagina de website">
 	<title>GoBikes</title>
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/style.css">
 	<!-- font-family "Roboto" -->
@@ -67,6 +68,7 @@
 
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
+				<a class="navbar-brand" href="#"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -119,8 +121,8 @@
 
 		<div class="advantage">
 			<div class="container">		
-				<section>
-					<div>
+				<section class="row">
+					<div class="col-12 col-sm-4">
 						<svg width="37" height="30" viewBox="0 0 37 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<g clip-path="url(#clip0_63_2)">
 							<path d="M21.275 -1C22.807 -1 24.05 0.25918 24.05 1.8125V4.625H26.9811C27.9639 4.625 28.8542 5.01758 29.6 5.7207L34.0689 10.25C34.7627 10.9531 35.15 11.9082 35.15 12.9043V19.625C36.1733 19.625 37 20.4629 37 21.5C37 22.5371 36.1733 23.375 35.15 23.375H33.3C33.3 26.4805 30.8141 29 27.75 29C24.6339 29 22.2 26.4805 22.2 23.375H14.8C14.8 26.4805 12.3141 29 9.25 29C6.13391 29 3.7 26.4805 3.7 23.375H2.775C1.24239 23.375 0 22.1152 0 20.5625V1.8125C0 0.25918 1.24239 -1 2.775 -1H21.275ZM24.05 8.375V14H31.45V12.9043L26.9811 8.375H24.05ZM9.25 20.5625C7.71797 20.5625 6.475 21.8223 6.475 23.375C6.475 24.9277 7.71797 26.1875 9.25 26.1875C10.782 26.1875 12.025 24.9277 12.025 23.375C12.025 21.8223 10.782 20.5625 9.25 20.5625ZM27.75 26.1875C29.282 26.1875 30.525 24.9277 30.525 23.375C30.525 21.8223 29.282 20.5625 27.75 20.5625C26.218 20.5625 24.975 21.8223 24.975 23.375C24.975 24.9277 26.218 26.1875 27.75 26.1875Z" fill="#B4B4B4"/>
@@ -136,7 +138,7 @@
 						e receba em casa</p>
 					</div>
 
-					<div>
+					<div class="col-12 col-sm-4">
 						<svg width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M29.3333 0H3.66667C1.64141 0 0 1.62332 0 3.625V5.4375H33V3.625C33 1.62332 31.3557 0 29.3333 0ZM0 21.75C0 23.7517 1.64141 25.375 3.66667 25.375H29.3333C31.3586 25.375 33 23.7517 33 21.75V10.875H0V21.75ZM10.9484 18.5781C10.9484 18.3277 11.1537 18.125 11.4068 18.125H19.6052C19.8583 18.125 20.0635 18.3277 20.0635 18.5781L20.1667 19.4844C20.1667 19.7346 19.9614 19.9375 19.7083 19.9375H11.4583C11.2063 19.9375 11 19.7336 11 19.4844L10.9484 18.5781ZM3.6151 18.5781C3.6151 18.3277 3.82032 18.125 4.07344 18.125H8.65677C8.90989 18.125 9.1151 18.3277 9.1151 18.5781L9.16667 19.4844C9.16667 19.7336 8.96042 19.9375 8.70833 19.9375H4.125C3.87177 19.9375 3.66667 19.7336 3.66667 19.4844L3.6151 18.5781Z" fill="#B4B4B4"/>
 							</svg>
@@ -145,7 +147,7 @@
 						parcelamento nos cartãos</p>
 					</div>
 
-					<div>
+					<div class="col-12 col-sm-4">
 						<svg width="26" height="29" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M22.2857 12.6875H8.35714V8.15625C8.35714 5.65727 10.4406 3.625 13 3.625C15.5594 3.625 17.6429 5.65727 17.6429 8.15625V9.0625H21.3571V8.15625C21.3571 3.65842 17.608 0 13 0C8.39196 0 4.64286 3.65842 4.64286 8.15625V12.6875H3.71429C1.66272 12.6875 0 14.3103 0 16.3125V25.375C0 27.3744 1.66272 29 3.71429 29H22.2857C24.3373 29 26 27.3767 26 25.426V16.3635C26 14.3131 24.3344 12.6875 22.2857 12.6875ZM14.8571 21.75C14.8571 22.7508 14.0255 23.5625 13 23.5625C11.9745 23.5625 11.1429 22.7525 11.1429 21.75V19.9375C11.1429 18.9367 11.9745 18.176 13 18.176C14.0255 18.176 14.8571 18.935 14.8571 19.9375V21.75Z" fill="#B4B4B4"/>
 							</svg>
@@ -612,7 +614,7 @@
 	<section class="contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-4 tel-email">
+				<div class="col-12 col-sm-6 col-md-4 tel-email">
 					<div>
 						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M17.9719 13.6057L17.1545 17.1494C17.0397 17.6504 16.5994 18.0009 16.0836 18.0009C7.21406 18.0002 0 10.7861 0 1.91622C0 1.40083 0.350473 0.959973 0.851484 0.845715L4.39523 0.0283319C4.91133 -0.0912696 5.43867 0.176621 5.65313 0.665363L7.28859 4.47982C7.47977 4.92911 7.35082 5.45259 6.97289 5.76126L5.08008 7.28107C6.27469 9.71458 8.25328 11.6932 10.6875 12.8885L12.2372 10.9971C12.5426 10.6181 13.07 10.487 13.5193 10.6816L17.3338 12.3167C17.7926 12.558 18.0914 13.0924 17.9719 13.6057Z" fill="#BA1C2B"/>
@@ -627,7 +629,7 @@
 					</div>
 				</div>
 
-				<div class="col-2 institutional">
+				<div class="col-12 col-sm-6 col-md-2 institutional">
 					<h3>Institucional</h3>
 					<ul>
 						<li><a href="#">Quem Somos</a></li>
@@ -638,7 +640,7 @@
 					</ul>
 				</div>
 
-				<div class="col-2 doubts">
+				<div class="col-12 col-sm-6 col-md-2 doubts">
 					<h3>Dúvidas</h3>
 					<ul>
 						<li><a href="#">Troca, Devolução, Garantia</a></li>
@@ -646,7 +648,7 @@
 					</ul>
 				</div>
 
-				<div class="col-2 shopping">
+				<div class="col-12 col-sm-6 col-md-2 shopping">
 					<h3>Compras</h3>
 					<ul>
 						<li><a href="#">Meus Pedidos</a></li>
@@ -655,7 +657,7 @@
 					</ul>
 				</div>
 
-				<div class="col-2 social-media">
+				<div class="col-12 col-sm-6 col-md-2 social-media">
 					<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M27.5625 14C27.5625 6.50781 21.4922 0.4375 14 0.4375C6.50781 0.4375 0.4375 6.50781 0.4375 14C0.4375 20.7703 5.39711 26.3813 11.8836 27.3984V17.9211H8.43828V14H11.8836V11.0119C11.8836 7.61305 13.907 5.73562 17.0062 5.73562C18.4904 5.73562 20.0424 6.00031 20.0424 6.00031V9.33625H18.3318C16.6474 9.33625 16.1219 10.3819 16.1219 11.4543V14H19.8833L19.2817 17.9205H16.1219V27.3984C22.6023 26.3813 27.5625 20.7703 27.5625 14Z" fill="white"/>
 					</svg>
@@ -679,7 +681,7 @@
 	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- fontawesome -->
 </body>
 </html>

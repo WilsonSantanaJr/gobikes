@@ -294,6 +294,10 @@ footer {
 
 @media (min-width: 500px) {
     // footer
+    .contact div .social-media {
+        display: flex;
+        justify-content: start;
+    }
     footer div {
         display: block;
     }
