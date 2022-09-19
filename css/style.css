@@ -63,30 +63,35 @@ form.form-search button {
   text-decoration: none;
 }
 
-nav {
+div.collapse {
+  display: flex;
+  justify-content: center;
+}
+
+nav.navbar {
   display: flex;
   align-items: center;
   height: 4rem;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(0deg, 0%, 15%);
 }
-nav ul {
+nav.navbar ul {
   display: flex;
   justify-content: center;
   gap: 3rem;
   margin: 0;
   padding: 0;
 }
-nav li {
+nav.navbar li {
   display: inline;
 }
-nav li a {
+nav.navbar li a {
   color: hsl(0deg, 0%, 100%);
   font-size: 1.4rem;
   text-decoration: none;
   padding: 1.2rem 1rem;
 }
-nav li a:hover {
+nav.navbar li a:hover {
   color: hsl(354deg, 74%, 42%);
   background-color: hsl(0deg, 0%, 100%);
 }
@@ -246,10 +251,37 @@ footer div.container {
   justify-content: space-between;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 992px) {
+  button.navbar-toggler {
+    background-color: hsl(0deg, 0%, 100%);
+  }
+  div.navbar-collapse {
+    position: relative;
+    z-index: 10;
+    margin-top: 9px;
+    display: block;
+  }
+  nav.navbar ul {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: hsl(0deg, 0%, 100%);
+  }
+  nav.navbar ul li a {
+    color: hsl(354deg, 74%, 42%);
+  }
   .contact div .social-media {
     display: flex;
     justify-content: start;
+  }
+  .contact div .institutional {
+    display: none;
+  }
+  .contact div .doubts {
+    display: none;
+  }
+  .contact div .shopping {
+    display: none;
   }
   footer div {
     display: block;

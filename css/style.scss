@@ -85,7 +85,11 @@ form.form-search {
     }
 }
 
-nav {
+div.collapse {
+    display: flex;
+    justify-content: center;
+}
+nav.navbar {
     @include display;
     height: 4.0rem;
 
@@ -116,6 +120,7 @@ nav {
         }
     } 
 }
+
 
 /* advantage */
 .advantage {
@@ -292,11 +297,42 @@ footer {
 
 
 
-@media (min-width: 500px) {
+@media (max-width: 992px) {
+    // header nav
+    button.navbar-toggler {
+        background-color: $white;
+    }
+    div.navbar-collapse {
+        position: relative;
+        z-index: 10;
+        margin-top: 9px;
+        display: block;
+    }
+    nav.navbar ul {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        background-color: $white;
+        li a {
+            color: $red;
+        }
+    }
+
     // footer
     .contact div .social-media {
         display: flex;
         justify-content: start;
+    }
+    .contact div {
+        .institutional {
+            display: none;
+        }
+        .doubts {
+            display: none;
+        }
+        .shopping {
+            display: none;
+        }
     }
     footer div {
         display: block;
