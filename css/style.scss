@@ -134,7 +134,7 @@ nav.navbar {
 
     section > div {
         @include display;
-        justify-content: space-around;
+        justify-content: center;
         gap: 1.7rem;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
@@ -200,7 +200,7 @@ nav.navbar {
         border: 1px solid $tertiary-color;
     }
     .card .star {
-        justify-content: center;
+        justify-content: space-between;
         display: flex;
         gap: 15rem;
 
@@ -217,8 +217,9 @@ nav.navbar {
     }
     .card .card-body div {
         display: flex;
-        gap: 4rem;
+        justify-content: space-between;
         align-items: center;
+        gap: 4rem;
 
         color: $tertiary-color;
         font-size: 1.4rem;

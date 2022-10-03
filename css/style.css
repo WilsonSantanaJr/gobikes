@@ -108,7 +108,7 @@ nav.navbar li a:hover {
 .advantage section > div {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   gap: 1.7rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -165,7 +165,7 @@ nav.navbar li a:hover {
   border: 1px solid hsl(0deg, 0%, 51%);
 }
 .product .card .star {
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   gap: 15rem;
 }
@@ -181,8 +181,9 @@ nav.navbar li a:hover {
 }
 .product .card .card-body div {
   display: flex;
-  gap: 4rem;
+  justify-content: space-between;
   align-items: center;
+  gap: 4rem;
   color: hsl(0deg, 0%, 51%);
   font-size: 1.4rem;
 }
